@@ -2,31 +2,45 @@
 
 A list of recommended libraries. "std required" is okay for libraries on this list.
 
-There's a maximum two per task, of this grows to 58 libraries for error handling it doesn't help since people still don't know what to use.
+There's a maximum two-three per task, of this grows to 58 libraries for error handling it doesn't help since people still don't know what to use.
 
-## Error handling
+# Error handling
 
-### In libraries
+## In libraries
 
 [thiserror](https://crates.io/crates/thiserror)
 
-### In applications
+## In applications
 
 [anyhow](https://crates.io/crates/anyhow)
 
 [eyere](https://crates.io/crates/eyre) / [color-eyere](https://crates.io/crates/color-eyre)
 
-## Iterators
+maybe:?
+
+[snafu](https://crates.io/crates/snafu)
+
+# Iterators
 
 [itertools](https://crates.io/crates/itertools)
 
-## Logging
+# Logging
+
+## Libraries
 
 [log](https://crates.io/crates/log) with [tracing](https://crates.io/crates/tracing) and [tracing-subscriber](https://crates.io/crates/tracing-subscriber)
 
-## Serialization
+## Applications
+
+Can use log from above, or these:
+
+[env_logger](https://crates.io/crates/env_logger)
+
+# Serialization
 
 [serde](https://crates.io/crates/serde), usually with [serde-json](https://crates.io/crates/serde_json)
+
+# Data types
 
 ## Dates, times etc
 
@@ -42,27 +56,35 @@ There's a maximum two per task, of this grows to 58 libraries for error handling
 
 [strum](https://crates.io/crates/strum)
 
-## Parse command line
+# Parse command line
 
 [structopt](https://crates.io/crates/structopt)
+
+# Networking
 
 ## Make web requests
 
 [reqwest](https://crates.io/crates/reqwest)
 
-## Linear algebra
+## TLS
+
+[rustls](https://crates.io/crates/rustls)
+
+# Linear algebra
 
 [nalgebra](https://crates.io/crates/nalgebra)
 [ndarray](https://crates.io/crates/ndarray)
 
-## Byte order juggling
+# Byte juggling
+
+[bytemuck](https://crates.io/crates/bytemuck) for generic byte mucking
 
 [byteorder](https://crates.io/crates/byteorder)
 
-## Want to contribute?
+# Want to contribute?
 
 Great! Open a pull request, if you want a library added and there's already two for that task include motivation which should be removed and why.
 
-## Why?
+# Why this list?
 
-As an experienced (>10 years) backend developer the disconnect between the "Rust by example"-book and what I imagined "rust in production" to be was bugging me. I wasn't sure which libraries to go. A question on the rust discord led me to create this.
+As an experienced (>10 years) backend developer the disconnect between the "Rust by example"-book and what I imagined "rust in production" to be was bugging me. I wasn't sure which libraries to go. A question on the rust reddit led me to create this.
