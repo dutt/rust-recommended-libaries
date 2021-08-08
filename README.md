@@ -77,7 +77,7 @@ Can use log from above, or these:
 
 # Cryptography
 
-(crypto)[https://crates.io/crates/crypto] has generic crypto algorithms.
+[crypto](https://crates.io/crates/crypto) has generic crypto algorithms.
 
 [rustls](https://crates.io/crates/rustls) has a full TLS suite.
 
