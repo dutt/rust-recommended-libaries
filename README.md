@@ -60,15 +60,9 @@ Can use log from above, or these:
 
 [structopt](https://crates.io/crates/structopt)
 
-# Networking
-
-## Make web requests
+# Web
 
 [reqwest](https://crates.io/crates/reqwest)
-
-## TLS
-
-[rustls](https://crates.io/crates/rustls)
 
 # Linear algebra
 
@@ -80,6 +74,12 @@ Can use log from above, or these:
 [bytemuck](https://crates.io/crates/bytemuck) for generic byte mucking
 
 [byteorder](https://crates.io/crates/byteorder)
+
+# Cryptography
+
+(crypto)[https://crates.io/crates/crypto] has generic crypto algorithms.
+
+[rustls](https://crates.io/crates/rustls) has a full TLS suite.
 
 # Want to contribute?
 
