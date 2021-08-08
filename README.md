@@ -16,9 +16,48 @@ There's a maximum two per task, of this grows to 58 libraries for error handling
 
 [eyere](https://crates.io/crates/eyre) / [color-eyere](https://crates.io/crates/color-eyre)
 
+## Iterators
+
+[itertools](https://crates.io/crates/itertools)
+
 ## Logging
 
 [log](https://crates.io/crates/log) with [tracing](https://crates.io/crates/tracing) and [tracing-subscriber](https://crates.io/crates/tracing-subscriber)
+
+## Serialization
+
+[serde](https://crates.io/crates/serde), usually with [serde-json](https://crates.io/crates/serde_json)
+
+## Dates, times etc
+
+[chrono](https://crates.io/crates/chrono)
+
+## Float values
+
+[float-ord](https://crates.io/crates/float-ord)
+
+[noisy_float](https://crates.io/crates/noisy_float)
+
+## Working with Enums
+
+[strum](https://crates.io/crates/strum)
+
+## Parse command line
+
+[structopt](https://crates.io/crates/structopt)
+
+## Make web requests
+
+[reqwest](https://crates.io/crates/reqwest)
+
+## Linear algebra
+
+[nalgebra](https://crates.io/crates/nalgebra)
+[ndarray](https://crates.io/crates/ndarray)
+
+## Byte order juggling
+
+[byteorder](https://crates.io/crates/byteorder)
 
 ## Want to contribute?
 
