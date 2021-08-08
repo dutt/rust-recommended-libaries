@@ -1,6 +1,6 @@
 # rust-recommended-libaries
 
-A list of recommended libraries. 
+A list of recommended libraries. "std required" is okay for libraries on this list.
 
 There's a maximum two per task, of this grows to 58 libraries for error handling it doesn't help since people still don't know what to use.
 
