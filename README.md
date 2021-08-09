@@ -6,11 +6,11 @@ There's a maximum two-three per task, of this grows to 58 libraries for error ha
 
 # Error handling
 
-### In libraries
+## In libraries
 
 [thiserror](https://crates.io/crates/thiserror)
 
-### In applications
+## In applications
 
 [anyhow](https://crates.io/crates/anyhow)
 
@@ -26,11 +26,11 @@ maybe:?
 
 # Logging
 
-### Libraries
+## Libraries
 
 [log](https://crates.io/crates/log) with [tracing](https://crates.io/crates/tracing) and [tracing-subscriber](https://crates.io/crates/tracing-subscriber)
 
-### Applications
+## Applications
 
 Can use log from above, or these:
 
@@ -42,21 +42,21 @@ Can use log from above, or these:
 
 # Data types
 
-### Dates, times etc
+## Dates, times etc
 
 [chrono](https://crates.io/crates/chrono)
 
-### Float values
+## Float values
 
 [float-ord](https://crates.io/crates/float-ord)
 
 [noisy_float](https://crates.io/crates/noisy_float)
 
-### Working with Enums
+## Enums
 
 [strum](https://crates.io/crates/strum)
 
-### Bit flags
+## Bit flags
 
 [bitflags](https://crates.io/crates/bitflags)
 
@@ -70,11 +70,11 @@ Can use log from above, or these:
 
 [hyper](https://crates.io/crates/hyper) (low level server & client)
 
-### Clients
+## Clients
 
 [reqwest](https://crates.io/crates/reqwest)
 
-### Servers
+## Servers
 
 [actix](https://crates.io/crates/actix)
 
@@ -82,11 +82,13 @@ Can use log from above, or these:
 
 [warp](https://crates.io/crates/warp)
 
-### Frontend / WASM
+## WASM
 
 [wasm-bindgen](https://crates.io/crates/wasm-bindgen)
 
 [web-sys](https://crates.io/crates/web-sys)
+
+## Frontend
 
 [seed](https://crates.io/crates/seed)
 
@@ -115,6 +117,8 @@ Can use log from above, or these:
 [crypto](https://crates.io/crates/crypto) has generic crypto algorithms.
 
 [rustls](https://crates.io/crates/rustls) has a full TLS suite.
+
+# Randomness
 
 [rand](https://crates.io/crates/rand)
 
