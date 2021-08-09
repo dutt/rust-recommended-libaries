@@ -6,11 +6,11 @@ There's a maximum two-three per task, of this grows to 58 libraries for error ha
 
 # Error handling
 
-## In libraries
+### In libraries
 
 [thiserror](https://crates.io/crates/thiserror)
 
-## In applications
+### In applications
 
 [anyhow](https://crates.io/crates/anyhow)
 
@@ -26,11 +26,11 @@ maybe:?
 
 # Logging
 
-## Libraries
+### Libraries
 
 [log](https://crates.io/crates/log) with [tracing](https://crates.io/crates/tracing) and [tracing-subscriber](https://crates.io/crates/tracing-subscriber)
 
-## Applications
+### Applications
 
 Can use log from above, or these:
 
@@ -42,31 +42,66 @@ Can use log from above, or these:
 
 # Data types
 
-## Dates, times etc
+### Dates, times etc
 
 [chrono](https://crates.io/crates/chrono)
 
-## Float values
+### Float values
 
 [float-ord](https://crates.io/crates/float-ord)
 
 [noisy_float](https://crates.io/crates/noisy_float)
 
-## Working with Enums
+### Working with Enums
 
 [strum](https://crates.io/crates/strum)
 
+### Bit flags
+
+[bitflags](https://crates.io/crates/bitflags)
+
 # Parse command line
+
+[clap](https://crates.io/crates/clap)
 
 [structopt](https://crates.io/crates/structopt)
 
 # Web
 
+[hyper](https://crates.io/crates/hyper) (low level server & client)
+
+### Clients
+
 [reqwest](https://crates.io/crates/reqwest)
+
+### Servers
+
+[actix](https://crates.io/crates/actix)
+
+[rocket](https://crates.io/crates/rocket)
+
+[warp](https://crates.io/crates/warp)
+
+### Frontend / WASM
+
+[wasm-bindgen](https://crates.io/crates/wasm-bindgen)
+
+[web-sys](https://crates.io/crates/web-sys)
+
+[seed](https://crates.io/crates/seed)
+
+[yew](https://crates.io/crates/yew)
+
+# Async runtimes
+
+[tokio](https://crates.io/crates/tokio)
+
+[async-std](https://crates.io/crates/async-std)
 
 # Linear algebra
 
 [nalgebra](https://crates.io/crates/nalgebra)
+
 [ndarray](https://crates.io/crates/ndarray)
 
 # Byte juggling
@@ -80,6 +115,21 @@ Can use log from above, or these:
 [crypto](https://crates.io/crates/crypto) has generic crypto algorithms.
 
 [rustls](https://crates.io/crates/rustls) has a full TLS suite.
+
+[rand](https://crates.io/crates/rand)
+
+# Procedual Macros
+
+[syn](https://crates.io/crates/syn) for parsing macro input
+
+[quote](https://crates.io/crates/quote) for assambling macro output
+
+[darling](https://crates.io/crates/darling) for parsing macro input into structs
+
+# RegEx
+
+[regex](https://crates.io/crates/regex)
+
 
 # Want to contribute?
 
