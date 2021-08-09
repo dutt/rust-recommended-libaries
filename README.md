@@ -134,6 +134,15 @@ Can use log from above, or these:
 
 [regex](https://crates.io/crates/regex)
 
+# Database
+
+## SQL
+
+[sqlx](https://crates.io/crates/sqlx) for creating queries.
+
+## ORM
+
+[diesel](https://crates.io/crates/diesel)
 
 # Want to contribute?
 
