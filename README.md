@@ -4,6 +4,8 @@ A list of recommended libraries. "std required" is okay for libraries on this li
 
 There's a maximum two-three per task, of this grows to 58 libraries for error handling it doesn't help since people still don't know what to use.
 
+At the bottom I've also added recommended rustup/cargo things.
+
 # Error handling
 
 ## In libraries
@@ -143,6 +145,17 @@ Can use log from above, or these:
 ## ORM
 
 [diesel](https://crates.io/crates/diesel)
+
+# rustup
+
+rustfmt - format your rust code
+
+# cargo 
+
+clippy - get more help and tips to improve your code
+flamegraph - get flamegraph svgs
+cargo-audit - check your dependencies for vulnerabilities
+cargo-tarpaulin - code coverage
 
 # Want to contribute?
 
