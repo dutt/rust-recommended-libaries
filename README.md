@@ -148,14 +148,17 @@ Can use log from above, or these:
 
 # rustup
 
-rustfmt - format your rust code
+[rustfmt](https://github.com/rust-lang/rustfmt) - format your rust code
 
 # cargo 
 
-clippy - get more help and tips to improve your code
-flamegraph - get flamegraph svgs
-cargo-audit - check your dependencies for vulnerabilities
-cargo-tarpaulin - code coverage
+[clippy](https://github.com/rust-lang/rust-clippy) - get more help and tips to improve your code
+
+[flamegraph](https://lib.rs/crates/flamegraph) - get flamegraph svgs
+
+[cargo-audit](https://lib.rs/crates/cargo-audit) - check your dependencies for vulnerabilities
+
+[cargo-tarpaulin](https://lib.rs/crates/cargo-tarpaulin) - code coverage
 
 # Want to contribute?
 
